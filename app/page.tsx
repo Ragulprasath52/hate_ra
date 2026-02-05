@@ -22,7 +22,7 @@ export default function Home() {
           className="w-80 md:w-[28rem] rounded-2xl mb-8"
         />
         <h1 className="text-2xl md:text-4xl font-bold text-[#5c5470] pixel-font">
-          you are gay but i still love you 💕
+          you are gay but i still love you
         </h1>
       </main>
     );
