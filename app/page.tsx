@@ -47,9 +47,9 @@ export default function Home() {
           alt="Eminem throwing flowers"
           className="w-96 md:w-[32rem] rounded-2xl mb-10 relative z-10"
         />
-        <h1 className="text-3xl md:text-5xl font-bold text-[#d63384] pixel-font relative z-10">
-          consider this ur apology tax
-        </h1>
+        <h3 className="text-2xl md:text-4xl font-bold text-[#d63384] pixel-font relative z-10">
+        I knew it, you are literally obsessed with me
+        </h3>
       </main>
     );
   }
@@ -68,9 +68,9 @@ export default function Home() {
       </video>
       <div style={glitchStyle} className="relative z-10">
         <h1 className="text-4xl md:text-6xl font-bold text-[#d63384] mb-6 pixel-font">
-          do you love me?
+          do you still love me?
         </h1>
-        <p className="text-[#e891b0] mb-10 pixel-font text-xl">be honest pookie</p>
+        <p className="text-[#e891b0] mb-10 pixel-font text-xl">be honest</p>
         <div className="flex gap-6 items-center justify-center">
           <button
             onClick={() => setAnswer("yes")}
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
         {noScale === 0 && (
           <p className="mt-6 text-[#d63384] pixel-font animate-pulse text-xl">
-            stfu and say yes
+            shut up and say yes
           </p>
         )}
       </div>
