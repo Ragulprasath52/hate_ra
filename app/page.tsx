@@ -38,7 +38,7 @@ export default function Home() {
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover pointer-events-none"
-          style={{ mixBlendMode: "screen" }}
+          style={{ mixBlendMode: "screen", opacity: 0.5 }}
         >
           <source src="/petals.mp4" type="video/mp4" />
         </video>
@@ -62,7 +62,7 @@ export default function Home() {
         muted
         playsInline
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
-        style={{ mixBlendMode: "screen" }}
+        style={{ mixBlendMode: "screen", opacity: 0.5 }}
       >
         <source src="/petals.mp4" type="video/mp4" />
       </video>
