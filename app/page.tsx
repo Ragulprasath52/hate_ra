@@ -45,10 +45,10 @@ export default function Home() {
         <img
           src="/eminem.png"
           alt="Eminem throwing flowers"
-          className="w-80 md:w-[28rem] rounded-2xl mb-8 relative z-10"
+          className="w-96 md:w-[32rem] rounded-2xl mb-10 relative z-10"
         />
-        <h1 className="text-2xl md:text-4xl font-bold text-[#d63384] pixel-font relative z-10">
-        consider this ur apology tax
+        <h1 className="text-3xl md:text-5xl font-bold text-[#d63384] pixel-font relative z-10">
+          consider this ur apology tax
         </h1>
       </main>
     );
@@ -67,21 +67,21 @@ export default function Home() {
         <source src="/petals.mp4" type="video/mp4" />
       </video>
       <div style={glitchStyle} className="relative z-10">
-        <h1 className="text-3xl md:text-5xl font-bold text-[#d63384] mb-4 pixel-font">
+        <h1 className="text-4xl md:text-6xl font-bold text-[#d63384] mb-6 pixel-font">
           do you love me?
         </h1>
-        <p className="text-[#e891b0] mb-8 pixel-font text-lg">be honest pookie</p>
-        <div className="flex gap-4 items-center justify-center">
+        <p className="text-[#e891b0] mb-10 pixel-font text-xl">be honest pookie</p>
+        <div className="flex gap-6 items-center justify-center">
           <button
             onClick={() => setAnswer("yes")}
-            className="neu-button font-bold text-xl pixel-font"
+            className="neu-button font-bold text-2xl pixel-font"
           >
             Yes
           </button>
           {noScale > 0 && (
             <button
               onClick={shrinkNo}
-              className="neu-button font-bold text-xl pixel-font transition-all duration-300"
+              className="neu-button font-bold text-2xl pixel-font transition-all duration-300"
               style={{
                 transform: `scale(${noScale})`,
                 opacity: noScale,
@@ -92,7 +92,7 @@ export default function Home() {
           )}
         </div>
         {noScale === 0 && (
-          <p className="mt-4 text-[#d63384] pixel-font animate-pulse text-lg">
+          <p className="mt-6 text-[#d63384] pixel-font animate-pulse text-xl">
             stfu and say yes
           </p>
         )}
