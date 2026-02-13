@@ -68,7 +68,7 @@ export default function Home() {
       </video>
       <div style={glitchStyle} className="relative z-10">
         <h1 className="text-4xl md:text-6xl font-bold text-[#d63384] mb-6 pixel-font">
-          do you still love me?
+          do you hate me?
         </h1>
         <p className="text-[#e891b0] mb-10 pixel-font text-xl">be honest</p>
         <div className="flex gap-6 items-center justify-center">
@@ -76,7 +76,7 @@ export default function Home() {
             onClick={() => setAnswer("yes")}
             className="neu-button font-bold text-2xl pixel-font"
           >
-            Yes
+            No
           </button>
           {noScale > 0 && (
             <button
@@ -87,7 +87,7 @@ export default function Home() {
                 opacity: noScale,
               }}
             >
-              No
+              Yes
             </button>
           )}
         </div>
