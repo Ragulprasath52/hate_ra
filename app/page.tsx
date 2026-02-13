@@ -93,7 +93,7 @@ export default function Home() {
         </div>
         {noScale === 0 && (
           <p className="mt-6 text-[#d63384] pixel-font animate-pulse text-xl">
-            shut up and say yes
+            shut up and say No
           </p>
         )}
       </div>
